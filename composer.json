@@ -1,0 +1,21 @@
+{
+    "name": "qljiang/test",
+    "description": "learn how to use composer",
+    "type": "project",
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiang Qiuling",
+            "email": "jiangqiuling@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload" : {
+		"psr-4" : {
+			"Test\\" : "test/"
+		}
+	}
+}
